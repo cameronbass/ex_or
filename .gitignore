@@ -23,5 +23,5 @@ erl_crash.dump
 ex_or-*.tar
 
 # Ignore .elixir_ls
-/.elixir_ls
+.elixir_ls
 

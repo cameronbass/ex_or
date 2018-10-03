@@ -3,4 +3,4 @@
               {description,"Library for an easy XOR experience."},
               {modules,['Elixir.ExOr']},
               {registered,[]},
-              {vsn,"0.1.0"}]}.
+              {vsn,"0.1.1"}]}.
