@@ -2,17 +2,9 @@ defmodule ExOr do
   @moduledoc """
   Documentation for ExOr.
   """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> ExOr.hello()
-      :world
-
-  """
-  def hello do
-    :world
+  def validate(_struct, []), do: {:err, "Must pass fields"}
+  def validate(%_{} = struct, opts) do
+    {:ok, struct, opts}
   end
+  def validate(_struct, _opts), do: {:err, "Must pass struct"}
 end
