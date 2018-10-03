@@ -22,7 +22,7 @@ defmodule ExOr.MixProject do
     [
       maintainers: ["Cameron Bass"],
       licenses: ["MIT"],
-      links: %{"GitHub" => "https://github.com/cameronbass"},
+      links: %{"GitHub" => "https://github.com/cameronbass/ex_or"},
     ]
   end
 
